@@ -1,0 +1,1 @@
+mvn --projects parquet-avro,parquet-column,parquet-hadoop --also-make -DaltReleaseDeploymentRepository=VideoAmpReleases::default::https://videoamp.artifactoryonline.com/videoamp/release source:jar deploy
